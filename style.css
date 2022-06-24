@@ -48,6 +48,7 @@
 
 .title {
     font-size: 25px;
+    color: white;
     display: inline-block;
     vertical-align: middle;
     transition: all 0.3s ease-in-out;
@@ -58,6 +59,10 @@
     text-align: center;
     vertical-align: middle;
     transition: all 0.3s ease-in-out;
+}
+
+.social-networks h1 {
+    color: white;
 }
 
 .social-networks img {
