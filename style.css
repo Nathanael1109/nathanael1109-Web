@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: black;
+}
+.nav-link {
+    align-content: center;
+    
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+}
+
+.nav-link a {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 77, 77);
+}
+
+.main {
+    min-height: 100vh;
+    background: url(img/bg.png);
+    background-size: cover;
+}
+
+.upper {
+    position: relative;
+    padding: 80px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+}
+
+.title {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-networks{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-networks img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;   
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright {
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.copyright * {
+    color: gray;
+}
+
+.copyright a.discord {
+    position: absolute;
+    right: 0;
+}
