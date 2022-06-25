@@ -14,8 +14,8 @@
     <link rel="icon" href="img/logo-nathanael1109-bg-nobg.png">
     <link rel="apple-touch-icon" href="img/logo-nathanael1109-bg-nobg.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Nathanael1109 - Acceuil</title>
+    <link rel="stylesheet" href="../style.css">
+    <title>Nathanael1109 - Contact</title>
 </head>
 
 <!-- Body -->
@@ -25,26 +25,33 @@
     <div class="main">
 
         <div class="nav-link">
-           <a href="#">Accueil</a>
+           <a href="../">Accueil</a>
            <a href="https://www.elevenonine.be/" target="_blank">Eleven-O-Nine</a>
            <a href="https://eklazion.fr" target="_blank">Eklazion</a>
-           <a href="/about">A propos</a>
-           <a href="/contact">Contact</a>
+           <a href="../about">A propos</a>
+           <a href="#">Contact</a>
         </div>
 
         <div class="upper">
-           <img src="img/logo-nathanael1109-bg-nobg.png" alt="Logo du site" class="logo">
-           <h1 class="title">Bienvenu chez Nathanael1109</h1>
+           <img src="../img/logo-nathanael1109-bg-nobg.png" alt="Logo du site" class="logo">
+           <h1 class="title">Comment contacter Nathanael1109</h1><br>
+            <p>Discord (a choisir en priorité): Nathanaël#0406</p><br>
+            <p>Email : nathanael.lamproye@hotmail.fr</p><br>
+            <p>instagram : @nathanael1109_prv</p><br>
+            <p>twitter : @nathanael1109</p><br>
+            <div class="contact-form">
+                <form action="contact.php" method="post">
+                    <label for="name">Nom</label>
+                    <input type="text" name="name" id="name" placeholder="Votre nom" required><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email" required><br>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea><br>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
         </div>
 
-        <div class="social-networks">
-            <h1>Liens :</h1>
-            <a href="https://www.youtube.com/channel/UCLIINu-C7-PF7SBfm4yfHWg"   target="_blank"><img src="img/social-net/youtube.png" alt="Youtube"></a>
-            <a href="https://www.twitch.tv/nathanael1109"                        target="_blank"><img src="img/social-net/twitch.png" alt="Twitch"></a>
-            <a href="https://www.twitter.com/nathanael1109"                      target="_blank"><img src="img/social-net/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/nathanael1109_prv"                target="_blank"><img src="img/social-net/instagram.png" alt="Instagram"></a>
-            <a href="https://www.paypal.me/nlamproye"                            target="_blank"><img src="img/social-net/paypal.png" alt="PayPal"></a>
-        </div>
         <footer>
             <div class="copyright">
                 <span class="copyrights">&copy; 2022 - <a href="https://nathanael1109.com/">Nathanael1109</a></span>
